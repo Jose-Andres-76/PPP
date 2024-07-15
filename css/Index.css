@@ -62,15 +62,15 @@ button img {
 }
 
 #btnHome img:hover {
-    content: url('../img/HoverHome.png');
+    content: url('../img/iconos/home2.svg');
 }
 
 #btnForm img:hover {
-    content: url('../img/HoverForm.png');
+    content: url('../img/iconos/file2.svg');
 }
 
 #btnAboutMe img:hover {
-    content: url('../img/HoverAboutMe.png');
+    content: url('../img/iconos/profile2.svg');
 }
 
 .homePage {
