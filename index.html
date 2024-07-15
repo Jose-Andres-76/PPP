@@ -15,7 +15,9 @@
     <video autoplay muted loop id="bg-video">
         <source src="../img/0605.mp4" type="video/mp4">
     </video>
-    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> -->
+
+    <!-- NAV -->
+
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid justify-content-center">
             <button id="visualizer" class="btn"><img id="devLogo" src="../img/iconos/atrapasuennos.svg" alt="Logo" style="width: 85px; height: 145px;"></button>
@@ -37,14 +39,31 @@
         </div>
     </nav>
 
+    <!-- VISUALIZER -->
+
     <div id="logoScreen">
-        <img id="logo" src="../img/iconos/atrapasuennos.svg" alt="Logo" style="width: 100%; height: 100%;">
+        <img id="logo" class="rounded mx-auto d-block" src="../img/iconos/atrapasuennos.svg" alt="Logo" style="width: 70%; height: 70%;">
+        <h1 id="slogan" class="text-danger text-center">“Estructura firme, resultado excelente.”</h1>
     </div>
 
+    <!-- HOME -->
+
     <div id="Home" class="homePage bg-dark">
-        <h1 class="text-white">Lorem ipsum</h1>
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Aliquam faucibus purus in massa tempor. Pharetra sit amet aliquam id diam maecenas ultricies. Varius vel pharetra vel turpis nunc. Ipsum nunc aliquet bibendum enim facilisis gravida. Potenti nullam ac tortor vitae purus faucibus ornare. Convallis posuere morbi leo urna molestie. Proin nibh nisl condimentum id venenatis a.</p>
-        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Aliquam faucibus purus in massa tempor. Pharetra sit amet aliquam id diam maecenas ultricies. Varius vel pharetra vel turpis nunc. Ipsum nunc aliquet bibendum enim facilisis gravida. Potenti nullam ac tortor vitae purus faucibus ornare. Convallis posuere morbi leo urna molestie. Proin nibh nisl condimentum id venenatis a.</p>
+        <h1 id="welcome1" class="display-3 text-white text-center">Ingeniero de Software</h1>
+        <h1 id="welcome2" class="display-5 text-danger text-center">-</h1>
+        <h1 id="welcome3" class="display-6 text-white text-center">con especialidad en backend</h1>
+    </div>
+
+    <div id="Home2" class="homePage2 bg-dark">
+        <h1 id="welcome4" class="display-6 text-white text-center">Un poco sobre mí</h1>
+        <h1 id="welcome5" class="display-5 text-danger text-center">-</h1>
+        <p id="welcome6" class=" text-white text-center">Soy un técnico en desarrollo backend con experiencia en Java, JavaScript y .NET, especializado en el diseño y la implementación de sistemas backend eficientes y escalables. Mi misión es crear software de alta calidad que brinde reconocimiento a la empresa y satisfacción a nuestros clientes. Aspiro a ser reconocido en el ámbito tecnológico por ofrecer soluciones ágiles e innovadoras, manteniendo siempre una reputación de integridad y responsabilidad. Estoy comprometido con la mejora continua y la adopción de nuevas tecnologías para ofrecer soluciones excepcionales.</p>
+    </div>
+
+    <div id="Home3" class="homePage3 bg-dark">
+        <h1 id="welcome7" class="display-5 text-danger text-center">-</h1>
+        <h1 id="welcome8" class="display-6 text-white text-center">Mis Proyectos</h1>
+        <h1 id="welcome9" class="display-5 text-danger text-center">-</h1>
     </div>
 
     <!-- Carousel -->
@@ -65,7 +84,7 @@
                 <img src="../img/SIMEPCI.png" alt="SIMEPCI" class="d-block" style="width: 100%; height: 100%;">
                     <div class="carousel-caption">
                         <h3 id="slideOneHeader">SIMEPCI</h3>
-                        <p id="slideOne">Pagina web para Centros de Salud privados</p>
+                        <p id="slideOne">Página web para Centros de Salud privados</p>
                     </div>
             </div>
             <div class="carousel-item">
@@ -100,7 +119,14 @@
         </button>
     </div>
 
-    <div id="Form" class="formContainer bg-dark">
+    <!-- FORM -->
+
+    <div id="FormIntro" class="formContainer bg-dark">
+        <h1 id="formTitle" class="text-white text-center">Formulario de Contacto</h1>
+        <p id="formText" class="text-white text-center">Con el siguiente formulario pueden dejarme su información de contacto, estare al tanto de sus preguntas con respecto a mi trabajo.</p>
+    </div>
+
+    <div id="Form" class="formContainer2 bg-dark">
         <!-- Placeholder for alerts -->
         <div id="alertPlaceholder"></div>
     <form id="messageSender">
@@ -128,6 +154,8 @@
     </form>
     </div>
 
+    <!-- TODO: ABOUT ME -->
+
     <!-- buttons and their logic -->
 
     <button id="whatsAppButton"><img src="../img/iconos/whatsapp.svg" alt="Logo" style="width: 70px; height: 70px;"></button>
@@ -135,6 +163,14 @@
 
     <button id="scrollToTopBtn"><img src="../img/iconos/arrow_up.svg" alt="Logo" style="width: 70px; height: 70px;"></button>
     <script src="../js/scrollToTop.js"></script>
+
+    <!-- FOOTER -->
+
+    <footer class="navbar navbar-expand-sm navbar-dark">
+            <img id="logo" class="rounded mx-auto d-block" src="../img/iconos/atrapasuennos.svg" alt="Logo" style="width: 3%; height: 3%;">
+            <p id="footerText" class="text-white text-center">“Estructura firme, resultado excelente.”</p>
+            <p id="footerCR" class="text-white text-center">© 2021 Jose Andres Ramos Espinoza. Todos los derechos reservados.</p>
+    </footer>
 
     <!-- Visibility Settings -->
     <script src="../js/visibilitySettings.js"></script>
