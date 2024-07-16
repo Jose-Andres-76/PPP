@@ -28,7 +28,11 @@ const translations = {
         sendButt: "Send",
         // footer
         footerText:"Solid structure, excellent results.",
-        footerCR:"© 2021 Jose Andres Ramos Espinoza. All rights reserved."
+        footerCR:"© 2021 Jose Andres Ramos Espinoza. All rights reserved.",
+        // CV link
+        cvLink: "https://raw.githubusercontent.com/Jose-Andres-76/Portafolio/main/Tarea3/Curriculum Vitae English José Andrés Ramos Espinoza.pdf",
+        CVtalk: "Here you can access my resume and get to know a little more about my skills and experience.",
+        cvButtonText: "Download CV"
     },
     es: {
         formTitle: "Formulario de Contacto",
@@ -58,7 +62,11 @@ const translations = {
         sendButt: "Enviar",
         // footer
         footerText:"Estructura firme, resultado excelente.",
-        footerCR:"© 2021 Jose Andres Ramos Espinoza. Todos los derechos reservados."
+        footerCR:"© 2021 Jose Andres Ramos Espinoza. Todos los derechos reservados.",
+        // CV link
+        cvLink: "https://raw.githubusercontent.com/Jose-Andres-76/Portafolio/main/Tarea3/Curriculum Vitae Español José Andrés Ramos Espinoza.pdf",
+        CVtalk: "Aquí pueden acceder a mi curriculum y conocer un poco mas a detalle mis habilidades y experiencia.",
+        cvButtonText: "Descargar curriculum"
     }
 };
 
@@ -92,6 +100,10 @@ function switchLanguage(lang) {
     //footer
     document.getElementById('footerText').textContent = translations[lang].footerText;
     document.getElementById('footerCR').textContent = translations[lang].footerCR;
+    // CV link
+    const cvLink = document.getElementById('CV');
+    cvLink.href = translations[lang].cvLink;
+    cvLink.textContent = translations[lang].cvButtonText;
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
