@@ -165,7 +165,25 @@ button img {
     box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
 }
 
-#aboutPage2 {
+.aboutPage2 {
+    padding: 3%;
+    margin: 1%;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
+}
+
+.aboutPage3 {
+    padding: 3%;
+    margin: 1%;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
+}
+
+.aboutPage4 {
+    padding: 3%;
+    margin: 1%;
     display: flex;
     flex-direction: row;
     align-items: center;
