@@ -26,13 +26,30 @@ const translations = {
         labelMSG:"Enter your message:",
         // buttons
         sendButt: "Send",
+        visit: "Visit repository",
+        visit2: "Visit site",
+        visit3: "Visit repository",
+        visit4: "Visit repository",
+        //aboutMe
+        me:"Professional Profile",
+        me3:"Backend development technician with experience in Java, JavaScript, and the use of the .NET framework.",
+        me4: "Mission",
+        me6: "Design software structures that are of high quality and bring recognition to the company, ensuring that each project is long-lasting and above all satisfactory for our customers.",
+        me7: "Vision",
+        me9: "To be recognized in the field of technology for providing agile and innovative solutions, maintaining a reputation for integrity and responsibility with the projects to be created.",
         // footer
         footerText:"Solid structure, excellent results.",
-        footerCR:"© 2021 Jose Andres Ramos Espinoza. All rights reserved.",
-        // CV link
+        footerCR:"© 2024 Jose Andres Ramos Espinoza. All rights reserved.",
+        // Cards
         cvLink: "https://raw.githubusercontent.com/Jose-Andres-76/Portafolio/main/Tarea3/Curriculum Vitae English José Andrés Ramos Espinoza.pdf",
         CVtalk: "Here you can access my resume and get to know a little more about my skills and experience.",
-        cvButtonText: "Download CV"
+        cvButtonText: "Download CV",
+        GHheader: "GitHub Profile",
+        GHtalk: "Here you can access my past projects in which I have developed my knowledge.",
+        ghButtonText: "Visit profile",
+        LNheader:"LinkedIn Profile",
+        LNtalk: "Here you can access my work information and see my performance over the past years.",
+        lnButtonText: "Visit profile"
     },
     es: {
         formTitle: "Formulario de Contacto",
@@ -60,13 +77,26 @@ const translations = {
         labelMSG:"Ingrese su mensaje:",
         // buttons
         sendButt: "Enviar",
+        //aboutMe
+        me:"Perfil Profesional",
+        me3:"Técnico en desarrollo backend con experiencia en la realizacion de proyectos en Java, JavaScript y con la utilizacion del framework .NET.",
+        me4: "Misión",
+        me6: "Diseñar estructuras de software que sean de alta calidad y brinden reconocimiento a la empresa, garantizando que cada proyecto sea duradero y sobretodo sea satisfactorio para nuestros clientes.",
+        me7: "Visión",
+        me9: "Ser reconocido en el ámbito de la tecnología por brindar soluciones ágiles e innovadoras, manteniendo una reputación de integridad y responsabilidad con los proyectos a crear.",
         // footer
         footerText:"Estructura firme, resultado excelente.",
-        footerCR:"© 2021 Jose Andres Ramos Espinoza. Todos los derechos reservados.",
-        // CV link
+        footerCR:"© 2024 Jose Andres Ramos Espinoza. Todos los derechos reservados.",
+        // Cards
         cvLink: "https://raw.githubusercontent.com/Jose-Andres-76/Portafolio/main/Tarea3/Curriculum Vitae Español José Andrés Ramos Espinoza.pdf",
         CVtalk: "Aquí pueden acceder a mi curriculum y conocer un poco mas a detalle mis habilidades y experiencia.",
-        cvButtonText: "Descargar curriculum"
+        cvButtonText: "Descargar curriculum",
+        GHheader: "Perfil GitHub",
+        GHtalk: "Aquí pueden acceder a mis proyectos pasados en los cuales he desarrollado mis conocimientos.",
+        ghButtonText: "Visitar perfil",
+        LNHeader: "Perfil LinkedIn",
+        LNtalk: "Aquí pueden acceder a mi información laboral y como me he desenvuelto en el mercado laboral durante los ultimos años",
+        lnButtonText: "Visitar perfil"
     }
 };
 
@@ -97,13 +127,27 @@ function switchLanguage(lang) {
     document.getElementById('labelMSG').textContent = translations[lang].labelMSG;
     // buttons
     document.getElementById('sendButt').textContent = translations[lang].sendButt;
+    //aboutMe
+    document.getElementById('me').textContent = translations[lang].me;
+    document.getElementById('me3').textContent = translations[lang].me3;
+    document.getElementById('me4').textContent = translations[lang].me4;
+    document.getElementById('me6').textContent = translations[lang].me6;
+    document.getElementById('me7').textContent = translations[lang].me7;
+    document.getElementById('me9').textContent = translations[lang].me9;
+
     //footer
     document.getElementById('footerText').textContent = translations[lang].footerText;
     document.getElementById('footerCR').textContent = translations[lang].footerCR;
-    // CV link
-    const cvLink = document.getElementById('CV');
-    cvLink.href = translations[lang].cvLink;
-    cvLink.textContent = translations[lang].cvButtonText;
+    //Cards
+    document.getElementById('CVtalk').textContent = translations[lang].CVtalk;
+    document.getElementById('cvLink').textContent = translations[lang].cvButtonText;
+    document.getElementById('cvLink').href = translations[lang].cvLink;
+    document.getElementById('GHheader').textContent = translations[lang].GHheader;
+    document.getElementById('GHtalk').textContent = translations[lang].GHtalk;
+    document.getElementById('ghLink').textContent = translations[lang].ghButtonText;
+    document.getElementById('LNheader').textContent = translations[lang].LNheader;
+    document.getElementById('LNtalk').textContent = translations[lang].LNtalk;
+    document.getElementById('lnLink').textContent = translations[lang].lnButtonText;
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {

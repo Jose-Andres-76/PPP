@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('FormIntro').style.display = 'none';
         document.getElementById('logoScreen').style.display = 'none';
         document.getElementById('aboutMe').style.display = 'none';
+        document.getElementById('aboutMe2').style.display = 'none';
+        document.getElementById('aboutMe3').style.display = 'none';
+        document.getElementById('aboutMe4').style.display = 'none';
     });
     document.getElementById('btnForm').addEventListener('click', function() {
         document.getElementById('Home').style.display = 'none';
@@ -19,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('FormIntro').style.display = 'block';
         document.getElementById('logoScreen').style.display = 'none';
         document.getElementById('aboutMe').style.display = 'none';
+        document.getElementById('aboutMe2').style.display = 'none';
+        document.getElementById('aboutMe3').style.display = 'none';
+        document.getElementById('aboutMe4').style.display = 'none';
     });
     document.getElementById('btnAboutMe').addEventListener('click', function() {
         document.getElementById('Home').style.display = 'none';
@@ -29,6 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('FormIntro').style.display = 'none';
         document.getElementById('logoScreen').style.display = 'none';
         document.getElementById('aboutMe').style.display = 'block';
+        document.getElementById('aboutMe2').style.display = 'block';
+        document.getElementById('aboutMe3').style.display = 'block';
+        document.getElementById('aboutMe4').style.display = 'block';
     });
     document.getElementById('visualizer').addEventListener('click', function() {
         document.getElementById('Home').style.display = 'none';
@@ -39,6 +48,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('FormIntro').style.display = 'none';
         document.getElementById('logoScreen').style.display = 'block';
         document.getElementById('aboutMe').style.display = 'none';
+        document.getElementById('aboutMe2').style.display = 'none';
+        document.getElementById('aboutMe3').style.display = 'none';
+        document.getElementById('aboutMe4').style.display = 'none';
     });
 
 });

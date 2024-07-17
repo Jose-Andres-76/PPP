@@ -39,6 +39,23 @@ html body {
     display: none;
 }
 
+#aboutMe2 {
+    display: none;
+}
+
+#aboutMe3 {
+    display: none;
+}
+
+#aboutMe4 {
+    display: none;
+}
+
+#scrollToTopBtn {
+    display: none;
+}
+
+
 
 
 #bg-video {
@@ -54,7 +71,7 @@ html body {
 }
 
 nav {
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(33,37,41,1),  rgba(33,37,41,1));
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(33,37,41,1),  rgba(33,37,41,1),rgba(33,37,41,1),  rgba(33,37,41,1));
     position: fixed;
     top: 0;
     width: 100%;
@@ -64,6 +81,7 @@ nav {
 
 button img {
     transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 #visualizer, #btnHome, #btnForm, #btnAboutMe {
@@ -86,7 +104,6 @@ button img {
     padding: 10%;
     margin: 1%;
     width: 70%;
-    background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
 }
@@ -94,8 +111,7 @@ button img {
 .homePage2 {
     padding: 5%;
     margin: 1%;
-    width: 70%;
-    background-color: white;
+    width: 65%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
 }
@@ -104,7 +120,6 @@ button img {
     padding: 1%;
     margin: 1%;
     width: 70%;
-    background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
 }
@@ -121,7 +136,7 @@ button img {
 .formContainer2 {
     padding: 3%;
     margin: 1%;
-    width: 70%;
+    width: 60%;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
@@ -130,7 +145,7 @@ button img {
 .carousel {
     padding: 3%;
     margin: 1%;
-    width: 70%;
+    width: 65%;
     align-items: center;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
@@ -140,6 +155,33 @@ button img {
 .formContainer button {
     display: block;
     margin: 0 auto;
+}
+
+.aboutPage {
+    padding: 3%;
+    margin: 1%;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
+}
+
+#aboutPage2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.card {
+    padding: 3%;
+    margin: 3%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 112, 112, 0.1);
+}
+
+#right, #left {
+    height: 30%;
+    width: 30%;
 }
 
 /* Floating buttons */
@@ -179,17 +221,66 @@ button img {
 }
 
 #whatsAppButton img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     display: block;
     border-radius: inherit;
 }
 
 #scrollToTopBtn img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     display: block;
     border-radius: inherit;
+}
+
+@media (max-width: 768px) {
+    #whatsAppButton img,
+    #scrollToTopBtn img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .homePage {
+        width: 90%;
+    }
+
+    .homePage2 {
+        width: 90%;
+    }
+
+    .homePage3 {
+        width: 90%;
+    }
+
+    .formContainer {
+        width: 90%;
+    }
+
+    .formContainer2 {
+        width: 90%;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .aboutPage {
+        width: 90%;
+    }
+
+    .aboutPage2 {
+        width: 90%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    #right, #left {
+        height: 40%;
+        width: 40%;
+    }
 }
 
 footer {
