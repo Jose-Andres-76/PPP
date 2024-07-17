@@ -7,7 +7,7 @@ const translations = {
         welcome1: "Software Engineer",
         welcome3: "specialized in backend",
         welcome4: "A little about me",
-        welcome6: "I am a backend development technician with experience in Java, JavaScript, and .NET, specializing in the design and implementation of efficient and scalable backend systems. My mission is to create high-quality software that brings recognition to the company and satisfaction to our customers. I aspire to be recognized in the technological field for offering agile and innovative solutions, always maintaining a reputation for integrity and responsibility. I am committed to continuous improvement and the adoption of new technologies to deliver exceptional solutions.",
+        welcome6: "My name is José Andrés Espinoza, I am a backend development technician with experience in Java, JavaScript, and .NET, specialized in the design and implementation of efficient and scalable backend systems. My mission is to create high-quality software that brings recognition to the company and satisfaction to our customers. I aspire to be recognized in the technological field for offering agile and innovative solutions, always maintaining a reputation for integrity and responsibility. I am committed to continuous improvement and the adoption of new technologies to deliver exceptional solutions.",
         welcome8: "My Projects",
         //carousel
         slideOneHeader:"SIMEPCI",
@@ -18,6 +18,13 @@ const translations = {
         slideThree:"Administration system for a Computer sales business",
         slideFourHeader:"Work Exchange",
         slideFour:"Work Exchange project for the Costa Rican Ministry of Labor",
+        //projects carousel for mobile
+        projectDescription:"Private Health Centers Webpage",
+        projectDescription2:"Official landing page for AGRIPRO",
+        mobileProject3:"Tony's Electronics Manager",
+        projectDescription3:"Administration system for a Computer sales business",
+        mobileProject4:"Work Exchange",
+        projectDescription4:"Work Exchange project for the Costa Rican Ministry of Labor",
         // labels
         labelFN: "Enter your full name:",
         labelEM: "Enter your email:",
@@ -49,7 +56,17 @@ const translations = {
         ghButtonText: "Visit profile",
         LNheader:"LinkedIn Profile",
         LNtalk: "Here you can access my work information and see my performance over the past years.",
-        lnButtonText: "Visit profile"
+        lnButtonText: "Visit profile",
+        //Mobile Cards
+        mobileAbout2: "Here you can access my resume and get to know a little more about my skills and experience.",
+        mobileAbout3Link: "https://raw.githubusercontent.com/Jose-Andres-76/Portafolio/main/Tarea3/Curriculum Vitae English José Andrés Ramos Espinoza.pdf",
+        mobileAbout3: "Download CV",
+        mobileAbout4: "GitHub Profile",
+        mobileAbout5: "Here you can access my past projects in which I have developed my knowledge.",
+        mobileAbout6: "Visit profile",
+        mobileAbout7: "LinkedIn Profile",
+        mobileAbout8: "Here you can access my work information and see my performance over the past years.",
+        mobileAbout9: "Visit profile"
     },
     es: {
         formTitle: "Formulario de Contacto",
@@ -58,7 +75,7 @@ const translations = {
         welcome1: "Ingeniero de Software",
         welcome3: "con especialidad en backend",
         welcome4: "Un poco sobre mí",
-        welcome6: "Soy un técnico en desarrollo backend con experiencia en Java, JavaScript y .NET, especializado en el diseño y la implementación de sistemas backend eficientes y escalables. Mi misión es crear software de alta calidad que brinde reconocimiento a la empresa y satisfacción a nuestros clientes. Aspiro a ser reconocido en el ámbito tecnológico por ofrecer soluciones ágiles e innovadoras, manteniendo siempre una reputación de integridad y responsabilidad. Estoy comprometido con la mejora continua y la adopción de nuevas tecnologías para ofrecer soluciones excepcionales.",
+        welcome6: "Me llamo José Andrés Espinoza, soy un técnico en desarrollo backend con experiencia en Java, JavaScript y .NET, especializado en el diseño y la implementación de sistemas backend eficientes y escalables. Mi misión es crear software de alta calidad que brinde reconocimiento a la empresa y satisfacción a nuestros clientes. Aspiro a ser reconocido en el ámbito tecnológico por ofrecer soluciones ágiles e innovadoras, manteniendo siempre una reputación de integridad y responsabilidad. Estoy comprometido con la mejora continua y la adopción de nuevas tecnologías para ofrecer soluciones excepcionales.",
         welcome8: "Mis Proyectos",
         //carousel
         slideOneHeader:"SIMEPCI",
@@ -69,6 +86,13 @@ const translations = {
         slideThree:"Sistema de administracion de ventas de un negocio de Computadoras",
         slideFourHeader:"Bolsa de Trabajo",
         slideFour:"Proyecto de bolsa de Empleo para el Ministerio de Trabajo de Costa Rica",
+        //projects carousel for mobile
+        projectDescription:"Página web para Centros de Salud privados",
+        projectDescription2:"Landing page oficial de la empresa AGRIPRO",
+        mobileProject3:"Administrador de Electrónicos Tony",
+        projectDescription3:"Sistema de administracion de ventas de un negocio de Computadoras",
+        mobileProject4:"Bolsa de Trabajo",
+        projectDescription4:"Proyecto de bolsa de Empleo para el Ministerio de Trabajo de Costa Rica",
         // labels
         labelFN: "Ingrese su nombre completo:",
         labelEM: "Ingrese su correo electrónico:",
@@ -96,7 +120,17 @@ const translations = {
         ghButtonText: "Visitar perfil",
         LNHeader: "Perfil LinkedIn",
         LNtalk: "Aquí pueden acceder a mi información laboral y como me he desenvuelto en el mercado laboral durante los ultimos años",
-        lnButtonText: "Visitar perfil"
+        lnButtonText: "Visitar perfil",
+        //Mobile Cards
+        mobileAbout2: "Aquí pueden acceder a mi curriculum y conocer un poco mas a detalle mis habilidades y experiencia.",
+        mobileAbout3Link: "https://raw.githubusercontent.com/Jose-Andres-76/Portafolio/main/Tarea3/Curriculum Vitae Español José Andrés Ramos Espinoza.pdf",
+        mobileAbout3: "Descargar curriculum",
+        mobileAbout4: "Perfil Github",
+        mobileAbout5: "Aquí pueden acceder a mis proyectos pasados en los cuales he desarrollado mis conocimientos.",
+        mobileAbout6: "Visitar perfil",
+        mobileAbout7: "Perfil LinkedIn",
+        mobileAbout8: "Aquí pueden acceder a mi información laboral y como me he desenvuelto en el mercado laboral durante los ultimos años",
+        mobileAbout9: "Visitar perfil"
     }
 };
 
