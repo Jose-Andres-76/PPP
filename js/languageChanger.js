@@ -168,7 +168,6 @@ function switchLanguage(lang) {
     document.getElementById('me6').textContent = translations[lang].me6;
     document.getElementById('me7').textContent = translations[lang].me7;
     document.getElementById('me9').textContent = translations[lang].me9;
-
     //footer
     document.getElementById('footerText').textContent = translations[lang].footerText;
     document.getElementById('footerCR').textContent = translations[lang].footerCR;
@@ -182,6 +181,16 @@ function switchLanguage(lang) {
     document.getElementById('LNheader').textContent = translations[lang].LNheader;
     document.getElementById('LNtalk').textContent = translations[lang].LNtalk;
     document.getElementById('lnLink').textContent = translations[lang].lnButtonText;
+    //Mobile Cards
+    document.getElementById('mobileAbout2').textContent = translations[lang].mobileAbout2;
+    document.getElementById('mobileAbout3').textContent = translations[lang].mobileAbout3;
+    document.getElementById('mobileAbout3').href = translations[lang].mobileAbout3Link;
+    document.getElementById('mobileAbout4').textContent = translations[lang].mobileAbout4;
+    document.getElementById('mobileAbout5').textContent = translations[lang].mobileAbout5;
+    document.getElementById('mobileAbout6').textContent = translations[lang].mobileAbout6;
+    document.getElementById('mobileAbout7').textContent = translations[lang].mobileAbout7;
+    document.getElementById('mobileAbout8').textContent = translations[lang].mobileAbout8;
+    document.getElementById('mobileAbout9').textContent = translations[lang].mobileAbout9;
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
