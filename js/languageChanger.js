@@ -75,7 +75,7 @@ const translations = {
         welcome1: "Ingeniero de Software",
         welcome3: "con especialidad en backend",
         welcome4: "Un poco sobre mí",
-        welcome6: "Me llamo José Andrés Espinoza, soy un técnico en desarrollo backend con experiencia en Java, JavaScript y .NET, especializado en el diseño y la implementación de sistemas backend eficientes y escalables. Mi misión es crear software de alta calidad que brinde reconocimiento a la empresa y satisfacción a nuestros clientes. Aspiro a ser reconocido en el ámbito tecnológico por ofrecer soluciones ágiles e innovadoras, manteniendo siempre una reputación de integridad y responsabilidad. Estoy comprometido con la mejora continua y la adopción de nuevas tecnologías para ofrecer soluciones excepcionales.",
+        welcome6: "Me llamo José Andrés Espinoza, soy un técnico en desarrollo backend con experiencia en Java, JavaScript y .NET, especializado en diseñar e implementar sistemas eficientes y escalables. Valoro el trabajo en equipo, la lealtad a los líderes y fomentar un ambiente de confianza en los proyectos. Priorizo la responsabilidad, la entrega a tiempo, la comunicación directa y la transparencia. Estoy comprometido con la mejora continua y la adopción de nuevas tecnologías para ofrecer soluciones excepcionales.",
         welcome8: "Mis Proyectos",
         //carousel
         slideOneHeader:"SIMEPCI",
