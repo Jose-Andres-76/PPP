@@ -7,7 +7,7 @@ const translations = {
         welcome1: "Software Engineer",
         welcome3: "specialized in backend",
         welcome4: "A little about me",
-        welcome6: "My name is José Andrés Espinoza, I am a backend development technician with experience in Java, JavaScript, and .NET, specialized in the design and implementation of efficient and scalable backend systems. My mission is to create high-quality software that brings recognition to the company and satisfaction to our customers. I aspire to be recognized in the technological field for offering agile and innovative solutions, always maintaining a reputation for integrity and responsibility. I am committed to continuous improvement and the adoption of new technologies to deliver exceptional solutions.",
+        welcome6: "My name is José Andrés Espinoza, I am a backend development technician with experience in Java, JavaScript and .NET, specialized in the design and implementation of efficient and scalable backend systems. My mission is to create high-quality software that brings recognition to the company and satisfaction to our customers. I aspire to be recognized in the technological field for offering agile and innovative solutions, always maintaining a reputation of integrity and responsibility. I am committed to continuous improvement and the adoption of new technologies to deliver exceptional solutions.",
         welcome8: "My Projects",
         //carousel
         slideOneHeader:"SIMEPCI",
