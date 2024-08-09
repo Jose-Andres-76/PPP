@@ -18,6 +18,8 @@ const translations = {
         slideThree:"Administration system for a Computer sales business",
         slideFourHeader:"Work Exchange",
         slideFour:"Work Exchange project for the Costa Rican Ministry of Labor",
+        slideFiveHeader:"Los Pollos Hermanos",
+        slideFive:"Official webpage for the fast food chain Los Pollos Hermanos",
         //projects carousel for mobile
         projectDescription:"Private Health Centers Webpage",
         projectDescription2:"Official landing page for AGRIPRO",
@@ -25,6 +27,8 @@ const translations = {
         projectDescription3:"Administration system for a Computer sales business",
         mobileProject4:"Work Exchange",
         projectDescription4:"Work Exchange project for the Costa Rican Ministry of Labor",
+        mobileProject5:"Los Pollos Hermanos",
+        projectDescription5:"Official webpage for the fast food chain Los Pollos Hermanos",
         // labels
         labelFN: "Enter your full name:",
         labelEM: "Enter your email:",
@@ -86,6 +90,8 @@ const translations = {
         slideThree:"Sistema de administracion de ventas de un negocio de Computadoras",
         slideFourHeader:"Bolsa de Trabajo",
         slideFour:"Proyecto de bolsa de Empleo para el Ministerio de Trabajo de Costa Rica",
+        slideFiveHeader:"Los Pollos Hermanos",
+        slideFive:"Pagina web para la cadena de comida rapida Los Pollos Hermanos",
         //projects carousel for mobile
         projectDescription:"Página web para Centros de Salud privados",
         projectDescription2:"Landing page oficial de la empresa AGRIPRO",
@@ -93,6 +99,8 @@ const translations = {
         projectDescription3:"Sistema de administracion de ventas de un negocio de Computadoras",
         mobileProject4:"Bolsa de Trabajo",
         projectDescription4:"Proyecto de bolsa de Empleo para el Ministerio de Trabajo de Costa Rica",
+        mobileProject5:"Los Pollos Hermanos",
+        projectDescription5:"Pagina web para la cadena de comida rapida Los Pollos Hermanos",
         // labels
         labelFN: "Ingrese su nombre completo:",
         labelEM: "Ingrese su correo electrónico:",
@@ -153,6 +161,8 @@ function switchLanguage(lang) {
     document.getElementById('slideThree').textContent = translations[lang].slideThree;
     document.getElementById('slideFourHeader').textContent = translations[lang].slideFourHeader;
     document.getElementById('slideFour').textContent = translations[lang].slideFour;
+    document.getElementById('slideFiveHeader').textContent = translations[lang].slideFiveHeader;
+    document.getElementById('slideFive').textContent = translations[lang].slideFive;
     // labels
     document.getElementById('labelFN').textContent = translations[lang].labelFN;
     document.getElementById('labelEM').textContent = translations[lang].labelEM;

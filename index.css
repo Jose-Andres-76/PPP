@@ -30,7 +30,7 @@ html body {
     display: block;
 }
 
-#demoMobile, #demoMobile2, #demoMobile3, #demoMobile4{
+#demoMobile, #demoMobile2, #demoMobile3, #demoMobile4, #demoMobile5{
     display: none;
 }
 
@@ -342,7 +342,7 @@ button img {
         text-align: justify !important;
     }
 
-    #demoMobile, #demoMobile2, #demoMobile3, #demoMobile4{
+    #demoMobile, #demoMobile2, #demoMobile3, #demoMobile4, #demoMobile5{
         display: block;
     }
 
@@ -371,7 +371,7 @@ button img {
         display: none !important;
     }
 
-    .mobileV, .mobileV2, .mobileV3, .mobileV4 {
+    .mobileV, .mobileV2, .mobileV3, .mobileV4, .mobileV5{
         padding: 3%;
         margin: 3%;
         width: 90%;

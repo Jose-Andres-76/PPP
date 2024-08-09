@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'block';
             document.getElementById('demoMobile3').style.display = 'block';
             document.getElementById('demoMobile4').style.display = 'block';
+            document.getElementById('demoMobile5').style.display = 'none';
         }
     });
     document.getElementById('btnForm').addEventListener('click', function() {
@@ -45,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'none';
             document.getElementById('demoMobile3').style.display = 'none';
             document.getElementById('demoMobile4').style.display = 'none';
+            document.getElementById('demoMobile5').style.display = 'none';
         }
     });
     document.getElementById('btnAboutMe').addEventListener('click', function() {
@@ -67,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'none';
             document.getElementById('demoMobile3').style.display = 'none';
             document.getElementById('demoMobile4').style.display = 'none';
+            document.getElementById('demoMobile5').style.display = 'none';
         }
     });
     document.getElementById('visualizer').addEventListener('click', function() {
@@ -89,6 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'none';
             document.getElementById('demoMobile3').style.display = 'none';
             document.getElementById('demoMobile4').style.display = 'none';
+            document.getElementById('demoMobile5').style.display = 'none';
         }
     });
     document.getElementById('btnHome2').addEventListener('click', function() {
@@ -111,6 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'block';
             document.getElementById('demoMobile3').style.display = 'block';
             document.getElementById('demoMobile4').style.display = 'block';
+            document.getElementById('demoMobile5').style.display = 'block';
         }
     });
     document.getElementById('btnForm2').addEventListener('click', function() {
@@ -133,6 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'none';
             document.getElementById('demoMobile3').style.display = 'none';
             document.getElementById('demoMobile4').style.display = 'none';
+            document.getElementById('demoMobile5').style.display = 'none';
         }
     });
     document.getElementById('btnAboutMe2').addEventListener('click', function() {
@@ -155,6 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('demoMobile2').style.display = 'none';
             document.getElementById('demoMobile3').style.display = 'none';
             document.getElementById('demoMobile4').style.display = 'none';
+            document.getElementById('demoMobile5').style.display = 'none';
         }
     });
 });
